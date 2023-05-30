@@ -1,0 +1,64 @@
+body
+{
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  margin: 0px;
+  font-size: 7.6vmin; /* was 8vmin but USGP didn't fit */
+}
+div#outerContainer
+{
+  margin: 0px auto;
+  width: 100vmin;
+  height: 100vmin;
+}
+div#sessionTitle
+{
+  background-color: #333333;
+  text-align: center;
+}
+div#sessionTitle img
+{
+  height: 5.6vmin;
+  padding-right: 2vmin;
+}
+div#sessionList
+{
+  display: flex;
+  flex-direction: column;
+}
+div.sessionRow
+{
+  display: flex;
+  flex-direction: row;
+  padding: 2vmin 0px;
+}
+div.sessionRow div.sessionName, div.sessionRow div.sessionTime
+{
+  width: 50%;
+  text-align: right;
+}
+div.sessionRow div.sessionName
+{
+  text-align: left;
+}
+div.sessionCountdown
+{
+  width: 100%;
+  text-align: center;
+  font-size: 16vmin;
+  padding-bottom: 2vmin;
+  border-bottom: solid 2px #333333;
+}
+span.finished
+{
+  color: #009900;
+}
+span.active
+{
+  color: #ffff00;
+}
+span.upcoming
+{
+  color: #666666;
+}
