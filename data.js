@@ -243,3 +243,16 @@ var sessionsData = [
 	["F1 Race", new Date(1685883600 * SECS), 180 * MINS]
 ];
 
+roundNum++;
+roundName = roundNameCAN;
+roundFlag = roundFlagCAN;
+
+var sessionsData = [
+	["F1 Practice 1", new Date(1686936600 * SECS), 60 * MINS],
+	["F1 Practice 2", new Date(1686949200 * SECS), 60 * MINS],
+
+	["F1 Practice 3", new Date(1687019400 * SECS), 60 * MINS],
+	["F1 Qualifying", new Date(1687032000 * SECS), 60 * MINS],
+
+	["F1 Race", new Date(1687111200 * SECS), 180 * MINS]
+];
