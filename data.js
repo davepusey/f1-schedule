@@ -249,10 +249,35 @@ roundFlag = roundFlagCAN;
 
 var sessionsData = [
 	["F1 Practice 1", new Date(1686936600 * SECS), 60 * MINS],
-	["F1 Practice 2", new Date(1686949200 * SECS), 60 * MINS],
+	["F1 Practice 2", new Date(1686947400 * SECS), 90 * MINS],
 
 	["F1 Practice 3", new Date(1687019400 * SECS), 60 * MINS],
 	["F1 Qualifying", new Date(1687032000 * SECS), 60 * MINS],
 
 	["F1 Race", new Date(1687111200 * SECS), 180 * MINS]
+];
+
+roundNum++;
+roundName = roundNameAUT;
+roundFlag = roundFlagAUT;
+
+var sessionsData = [
+	["F3 Practice", new Date(1688111700 * SECS), 45 * MINS],
+	["F2 Practice", new Date(1688115900 * SECS), 45 * MINS],
+	["F1 Practice 1", new Date(1688124600 * SECS), 60 * MINS],
+	["F3 Qualifying", new Date(1688130000 * SECS), 30 * MINS],
+	["F2 Qualifying", new Date(1688133300 * SECS), 30 * MINS],
+	["F1 Qualifying", new Date(1688137200 * SECS), 60 * MINS],
+	["PSC Practice", new Date(1688142600 * SECS), 45 * MINS],
+
+	["F3 Race 1", new Date(1688198400 * SECS), 40 * MINS],
+	["F1 Practice 2", new Date(1688205600 * SECS), 60 * MINS],
+	["F2 Race 1", new Date(1688211900 * SECS), 45 * MINS],
+	["PSC Qual", new Date(1688216400 * SECS), 30 * MINS],
+	["F1 Sprint", new Date(1688221800 * SECS), 90 * MINS],
+
+	["F3 Race 2", new Date(1688279100 * SECS), 45 * MINS],
+	["F2 Race 2", new Date(1688284500 * SECS), 60 * MINS],
+	["PSC Race", new Date(1688290800 * SECS), 30 * MINS],
+	["F1 Race", new Date(1688302800 * SECS), 180 * MINS]
 ];
