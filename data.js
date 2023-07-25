@@ -172,7 +172,7 @@ var sessionsData = [
 	["F2 Qualifying", new Date(1682679600 * SECS), 30 * MINS],
 	["F1 Qualifying", new Date(1682686800 * SECS), 60 * MINS],
 
-	["F1 Practice 2", new Date(1682760600 * SECS), 60 * MINS],
+	["F1 Sprint Qual", new Date(1682760600 * SECS), 60 * MINS],
 	["F2 Race 1", new Date(1682766900 * SECS), 45 * MINS],
 	["F1 Sprint", new Date(1682775000 * SECS), 90 * MINS],
 
@@ -271,7 +271,7 @@ var sessionsData = [
 	["PSC Practice", new Date(1688142600 * SECS), 45 * MINS],
 
 	["F3 Race 1", new Date(1688198400 * SECS), 40 * MINS],
-	["F1 Practice 2", new Date(1688205600 * SECS), 60 * MINS],
+	["F1 Sprint Qual", new Date(1688205600 * SECS), 60 * MINS],
 	["F2 Race 1", new Date(1688211900 * SECS), 45 * MINS],
 	["PSC Qual", new Date(1688216400 * SECS), 30 * MINS],
 	["F1 Sprint", new Date(1688221800 * SECS), 90 * MINS],
@@ -331,3 +331,29 @@ var sessionsData = [
 	["PSC Race", new Date(1690106400 * SECS), 30 * MINS],
 	["F1 Race", new Date(1690117200 * SECS), 180 * MINS]
 ];
+
+roundNum++;
+roundName = roundNameBEL;
+roundFlag = roundFlagBEL;
+
+var sessionsData = [
+	["F3 Practice", new Date(1690530900 * SECS), 45 * MINS],
+	["F2 Practice", new Date(1690535100 * SECS), 45 * MINS],
+	["F1 Practice 1", new Date(1690543800 * SECS), 60 * MINS],
+	["F3 Qualifying", new Date(1690549200 * SECS), 30 * MINS],
+	["F2 Qualifying", new Date(1690552500 * SECS), 30 * MINS],
+	["F1 Qualifying", new Date(1690556400 * SECS), 60 * MINS],
+	["PSC Practice", new Date(1690561800 * SECS), 45 * MINS],
+
+	["F3 Race 1", new Date(1690617600 * SECS), 40 * MINS],
+	["F1 Sprint Qual", new Date(1690624800 * SECS), 60 * MINS],
+	["F2 Race 1", new Date(1690631100 * SECS), 45 * MINS],
+	["PSC Qual", new Date(1690635600 * SECS), 30 * MINS],
+	["F1 Sprint", new Date(1690641000 * SECS), 90 * MINS],
+
+	["F3 Race 2", new Date(1690698600 * SECS), 45 * MINS],
+	["F2 Race 2", new Date(1690704000 * SECS), 60 * MINS],
+	["PSC Race", new Date(1690710300 * SECS), 30 * MINS],
+	["F1 Race", new Date(1690722000 * SECS), 180 * MINS]
+];
+
