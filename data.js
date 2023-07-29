@@ -349,7 +349,7 @@ var sessionsData = [
 	["F1 Sprint Qual", new Date((1690624800 * SECS) + (35 * MINS)), 60 * MINS],
 	["F2 Race 1", new Date(1690631100 * SECS), 45 * MINS],
 	["PSC Qual", new Date(1690635600 * SECS), 30 * MINS],
-	["F1 Sprint", new Date((1690641000 * SECS) + (5 * MINS)), 90 * MINS],
+	["F1 Sprint", new Date((1690641000 * SECS) + (35 * MINS)), 90 * MINS],
 
 	["F3 Race 2", new Date(1690698600 * SECS), 45 * MINS],
 	["F2 Race 2", new Date(1690704000 * SECS), 60 * MINS],
