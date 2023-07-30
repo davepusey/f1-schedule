@@ -46,8 +46,8 @@ var roundFlagHUN = "https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_
 var roundNameBEL = "Belgian Grand Prix";
 var roundFlagBEL = "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg";
 
-var roundNameDUT = "Dutch Grand Prix";
-var roundFlagDUT = "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg";
+var roundNameNET = "Dutch Grand Prix";
+var roundFlagNET = "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg";
 
 var roundNameITA = "Italian Grand Prix";
 var roundFlagITA = "https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg";
@@ -355,5 +355,27 @@ var sessionsData = [
 	["F2 Race 2", new Date(1690704000 * SECS), 60 * MINS],
 	["PSC Race", new Date(1690710300 * SECS), 30 * MINS],
 	["F1 Race", new Date(1690722000 * SECS), 180 * MINS]
+];
+
+roundNum++;
+roundName = roundNameNET;
+roundFlag = roundFlagNET;
+
+var sessionsData = [
+	["F2 Practice", new Date(1692950700 * SECS), 45 * MINS],
+	["F1 Practice 1", new Date(1692959400 * SECS), 60 * MINS],
+	["F2 Qualifying", new Date(1692964800 * SECS), 30 * MINS],
+	["F1 Practice 2", new Date(1692972000 * SECS), 60 * MINS],
+	["PSC Practice", new Date(1692977400 * SECS), 45 * MINS],
+
+	["PSC Qual", new Date(1693036200 * SECS), 30 * MINS],
+	["F1 Practice 3", new Date(1693042200 * SECS), 60 * MINS],
+	["F2 Race 1", new Date(1693048500 * SECS), 45 * MINS],
+	["F1 Qualifying", new Date(1693054800 * SECS), 60 * MINS],
+	["PSC Race 1", new Date(1693062000 * SECS), 30 * MINS],
+
+	["F2 Race 2", new Date(1693123200 * SECS), 60 * MINS],
+	["PSC Race 2", new Date(1693130100 * SECS), 30 * MINS],
+	["F1 Race", new Date(1693141200 * SECS), 180 * MINS]
 ];
 
