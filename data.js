@@ -403,3 +403,17 @@ var sessionsData = [
 	["PSC Race", new Date(1693734900 * SECS), 30 * MINS],
 	["F1 Race", new Date(1693746000 * SECS), 180 * MINS]
 ];
+
+roundNum++;
+roundName = roundNameSIN;
+roundFlag = roundFlagSIN;
+
+var sessionsData = [
+	["F1 Practice 1", new Date(1694770200 * SECS), 60 * MINS],
+	["F1 Practice 2", new Date(1694782800 * SECS), 60 * MINS],
+
+	["F1 Practice 3", new Date(1694856600 * SECS), 60 * MINS],
+	["F1 Qualifying", new Date(1694869200 * SECS), 60 * MINS],
+
+	["F1 Race", new Date(1694952000 * SECS), 180 * MINS]
+];
