@@ -446,3 +446,24 @@ var sessionsData = [
 
 	["F1 Race", new Date(1696784400 * SECS), 180 * MINS]
 ];
+
+roundNum++;
+roundName = roundNameUSA;
+roundFlag = roundFlagUSA;
+
+var sessionsData = [
+	["Academy P1", new Date(1697807700 * SECS), 40 * MINS],
+	["F1 Practice 1", new Date(1697823000 * SECS), 60 * MINS],
+	["Academy P2", new Date(1697828100 * SECS), 40 * MINS],
+	["F1 Qualifying", new Date(1697835600 * SECS), 60 * MINS],
+	["Academy Q1", new Date(1697841000 * SECS), 15 * MINS],
+	["Academy Q2", new Date(1697842500 * SECS), 15 * MINS],
+
+	["Academy R1", new Date(1697899500 * SECS), 30 * MINS],
+	["F1 Sprint Qual", new Date(1697909400 * SECS), 60 * MINS],
+	["Academy R2", new Date(1697920200 * SECS), 20 * MINS],
+	["F1 Sprint", new Date(1697925600 * SECS), 90 * MINS],
+
+	["Academy R3", new Date(1697985600 * SECS), 30 * MINS],
+	["F1 Race", new Date(1698001200 * SECS), 180 * MINS]
+];
