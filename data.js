@@ -467,3 +467,17 @@ var sessionsData = [
 	["Academy R3", new Date(1697985600 * SECS), 30 * MINS],
 	["F1 Race", new Date(1698001200 * SECS), 180 * MINS]
 ];
+
+roundNum++;
+roundName = roundNameMEX;
+roundFlag = roundFlagMEX;
+
+var sessionsData = [
+	["F1 Practice 1", new Date(1698431400 * SECS), 60 * MINS],
+	["F1 Practice 2", new Date(1698444000 * SECS), 60 * MINS],
+
+	["F1 Practice 3", new Date(1698514200 * SECS), 60 * MINS],
+	["F1 Qualifying", new Date(1698526800 * SECS), 60 * MINS],
+
+	["F1 Race", new Date(1698609600 * SECS), 180 * MINS]
+];
