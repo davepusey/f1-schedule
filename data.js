@@ -481,3 +481,17 @@ var sessionsData = [
 
 	["F1 Race", new Date(1698609600 * SECS), 180 * MINS]
 ];
+
+roundNum++;
+roundName = roundNameBRA;
+roundFlag = roundFlagBRA;
+
+var sessionsData = [
+	["F1 Practice 1", new Date(1699021800 * SECS), 60 * MINS],
+	["F1 Qualifying", new Date(1699034400 * SECS), 60 * MINS],
+
+	["F1 Sprint Qual", new Date(1699106400 * SECS), 60 * MINS],
+	["F1 Sprint", new Date(1699122600 * SECS), 90 * MINS],
+
+	["F1 Race", new Date(1699203600 * SECS), 180 * MINS]
+];
