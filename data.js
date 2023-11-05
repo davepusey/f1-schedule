@@ -16,9 +16,6 @@ var roundFlagAUS = "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_
 var roundNameSAN = "San Marino Grand Prix";
 var roundFlagSAN = "https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_of_San_Marino.svg";
 
-var roundNameMIA = "Miami Grand Prix";
-var roundFlagMIA = "https://upload.wikimedia.org/wikipedia/commons/e/e2/Flag_of_the_United_States_%28Pantone%29.svg";
-
 var roundNameSPA = "Spanish Grand Prix";
 var roundFlagSPA = "https://upload.wikimedia.org/wikipedia/commons/8/89/Bandera_de_Espa%C3%B1a.svg";
 
@@ -73,8 +70,11 @@ var roundFlagABU = "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_
 var roundNameQAT = "Qatar Grand Prix";
 var roundFlagQAT = "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg";
 
+var roundNameMIA = "Miami Grand Prix";
+var roundFlagMIA = roundFlagUSA;
+
 var roundNameLAS = "Las Vegas Grand Prix";
-var roundFlagLAS = "https://upload.wikimedia.org/wikipedia/commons/e/e2/Flag_of_the_United_States_%28Pantone%29.svg";
+var roundFlagLAS = roundFlagUSA;
 
 //----------------------------------------------------------------------------------------------------------------------
 
@@ -494,4 +494,26 @@ var sessionsData = [
 	["F1 Sprint", new Date(1699122600 * SECS), 90 * MINS],
 
 	["F1 Race", new Date(1699203600 * SECS), 180 * MINS]
+];
+
+roundNum++;
+roundName = roundNameLAS;
+roundFlag = roundFlagLAS;
+
+var sessionsData = [
+
+	// 2023-11-15 WED 
+	["Opening Ceremony", new Date(1700105400 * SECS), 0 * MINS],
+
+	// 2023-11-16 THU 
+	["F1 Practice 1", new Date(1700195400 * SECS), 60 * MINS],
+
+	// 2023-11-17 FRI
+	["F1 Practice 2", new Date(1700208000 * SECS), 60 * MINS],
+	["F1 Practice 3", new Date(1700281800 * SECS), 60 * MINS],
+
+	// 2023-11-17 SAT
+	["F1 Qualifying", new Date(1700294400 * SECS), 60 * MINS],
+	["Pre-Race Show (Grid)", new Date(1700368200 * SECS), 30 * MINS],
+	["F1 Race", new Date(1700373600 * SECS), 180 * MINS]
 ];
