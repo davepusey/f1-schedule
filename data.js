@@ -509,7 +509,7 @@ var sessionsData = [
 	["F1 Practice 1", new Date(1700195400 * SECS), 60 * MINS],
 
 	// 2023-11-17 FRI
-	["F1 Practice 2", new Date(1700208000 * SECS), 60 * MINS],
+	["F1 Practice 2", new Date(1700215200 * SECS), 90 * MINS],
 	["F1 Practice 3", new Date(1700281800 * SECS), 60 * MINS],
 
 	// 2023-11-17 SAT
