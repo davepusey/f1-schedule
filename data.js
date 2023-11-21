@@ -512,8 +512,30 @@ var sessionsData = [
 	["F1 Practice 2", new Date(1700217000 * SECS), 90 * MINS],
 	["F1 Practice 3", new Date(1700281800 * SECS), 60 * MINS],
 
-	// 2023-11-17 SAT
+	// 2023-11-18 SAT
 	["F1 Qualifying", new Date(1700294400 * SECS), 60 * MINS],
 	["Pre-Race Show (Grid)", new Date(1700368200 * SECS), 30 * MINS],
 	["F1 Race", new Date(1700373600 * SECS), 180 * MINS]
+];
+
+roundNum++;
+roundName = roundNameABU;
+roundFlag = roundFlagABU;
+
+var sessionsData = [
+
+	// 2023-11-24 FRI
+	["F2 Practice", new Date(1700809500 * SECS), 45 * MINS],
+	["F1 Practice 1", new Date(1700818200 * SECS), 60 * MINS],
+	["F2 Qualifying", new Date(1700823600 * SECS), 30 * MINS],
+	["F1 Practice 2", new Date(1700830800 * SECS), 60 * MINS],
+
+	// 2023-11-25 SAT
+	["F1 Practice 3", new Date(1700908200 * SECS), 60 * MINS],
+	["F2 Race 1", new Date(1700914800 * SECS), 45 * MINS],
+	["F1 Qualifying", new Date(1700920800 * SECS), 60 * MINS],
+
+	// 2023-11-26 SUN
+	["F2 Race 2", new Date(1700990100 * SECS), 60 * MINS],
+	["F1 Race", new Date(1701003600 * SECS), 180 * MINS]
 ];
