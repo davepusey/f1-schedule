@@ -190,3 +190,21 @@ sessionsData = [
 	["F2 Race 2", new Date(1711240500 * SECS), 60 * MINS],
 	["F1 Race", new Date(1711252800 * SECS), 180 * MINS]
 ];
+
+roundNum++;
+roundName = roundNameJAP;
+roundFlag = roundFlagJAP;
+
+sessionsData = [
+
+	// 2024-04-05 FRI
+	["F1 Practice 1", new Date(1712284200 * SECS), 60 * MINS],
+	["F1 Practice 2", new Date(1712296800 * SECS), 60 * MINS],
+
+	// 2024-04-06 SAT
+	["F1 Practice 3", new Date(1712370600 * SECS), 60 * MINS],
+	["F1 Qualifying", new Date(1712383200 * SECS), 60 * MINS],
+
+	// 2024-04-07 SUN
+	["F1 Race", new Date(1712466000 * SECS), 180 * MINS]
+];
