@@ -208,3 +208,21 @@ sessionsData = [
 	// 2024-04-07 SUN
 	["F1 Race", new Date(1712466000 * SECS), 180 * MINS]
 ];
+
+roundNum++;
+roundName = roundNameCHI;
+roundFlag = roundFlagCHI;
+
+sessionsData = [
+
+	// 2024-04-19 FRI
+	["F1 Practice 1", new Date(1713497400 * SECS), 60 * MINS],
+	["F1 Sprint Qual", new Date(1713511800 * SECS), 60 * MINS],
+
+	// 2024-04-20 SAT
+	["F1 Sprint", new Date(1713582000 * SECS), 90 * MINS],
+	["F1 Qualifying", new Date(1713596400 * SECS), 60 * MINS],
+
+	// 2024-04-21 SUN
+	["F1 Race", new Date(1713682800 * SECS), 180 * MINS]
+];
