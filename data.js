@@ -311,3 +311,21 @@ sessionsData = [
 	["PSC Race", new Date(1716717600 * SECS), 30 * MINS],
 	["F1 Race", new Date(1716728400 * SECS), 180 * MINS]
 ];
+
+roundNum++;
+roundName = roundNameCAN;
+roundFlag = roundFlagCAN;
+
+sessionsData = [
+
+	// 2024-06-07 FRI
+	["F1 Practice 1", new Date(1717781400 * SECS), 60 * MINS],
+	["F1 Practice 2", new Date(1717794000 * SECS), 60 * MINS],
+
+	// 2024-06-08 SAT
+	["F1 Practice 3", new Date(1717864200 * SECS), 60 * MINS],
+	["F1 Qualifying", new Date(1717876800 * SECS), 60 * MINS],
+
+	// 2024-06-09 SUN
+	["F1 Race", new Date(1717956000 * SECS), 180 * MINS]
+];
