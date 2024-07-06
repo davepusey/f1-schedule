@@ -405,11 +405,11 @@ sessionsData = [
 	["PSC Practice",   new Date(1720197600 * SECS),  45 * MINS],
 
 	// 2024-07-06 SAT
-	["F3 Race 1",      new Date(1720254000 * SECS),  40 * MINS],
 	["F1 Practice 3",  new Date(1720261800 * SECS),  60 * MINS],
 	["F2 Race 1",      new Date(1720268100 * SECS),  45 * MINS],
 	["F1 Qualifying",  new Date(1720274400 * SECS),  60 * MINS],
 	["PSC Qual",       new Date(1720280700 * SECS),  30 * MINS],
+	["F3 Race 1",      new Date(1720285200 * SECS),  40 * MINS],
 
 	// 2024-07-07 SUN
 	["F3 Race 2",      new Date(1720336800 * SECS),  45 * MINS],
