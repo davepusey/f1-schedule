@@ -466,8 +466,8 @@ sessionsData = [
 	["F3 Race 1",      new Date(1722066600 * SECS),  40 * MINS],
 	["PSC Qual",       new Date(1722072000 * SECS),  30 * MINS],
 	["F1 Practice 3",  new Date(1722076200 * SECS),  60 * MINS],
-	["F2 Race 1",      new Date(1722082500 * SECS),  45 * MINS],
 	["F1 Qualifying",  new Date(1722088800 * SECS),  60 * MINS],
+	["F2 Race 1",      new Date(1722096900 * SECS),  45 * MINS],
 
 	// 2024-07-28 SUN
 	["F3 Race 2",      new Date(1722148200 * SECS),  45 * MINS],
