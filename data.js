@@ -475,3 +475,29 @@ sessionsData = [
 	["PSC Race",       new Date(1722159900 * SECS),  30 * MINS],
 	["F1 Race",        new Date(1722171600 * SECS), 180 * MINS]
 ];
+
+roundNum++;
+roundName = roundNameNET;
+roundFlag = roundFlagNET;
+
+sessionsData = [
+
+	// 2024-08-23 FRI
+	["F1A Practice 1", new Date(1724400600 * SECS),  40 * MINS],
+	["F1 Practice 1",  new Date(1724409000 * SECS),  60 * MINS],
+	["PSC Practice",   new Date(1724414400 * SECS),  45 * MINS],
+	["F1 Practice 2",  new Date(1724421600 * SECS),  60 * MINS],
+	["F1A Practice 2", new Date(1724427000 * SECS),  40 * MINS],
+
+	// 2024-08-24 SAT
+	["F1A Qualifying", new Date(1724487300 * SECS),  30 * MINS],
+	["F1 Practice 3",  new Date(1724491800 * SECS),  60 * MINS],
+	["PSC Qual",       new Date(1724497200 * SECS),  30 * MINS],
+	["F1 Qualifying",  new Date(1724504400 * SECS),  60 * MINS],
+	["F1A Race 1",     new Date(1724511900 * SECS),  30 * MINS],
+
+	// 2024-08-25 SUN
+	["F1A Race 2",     new Date(1724575200 * SECS),  30 * MINS],
+	["PSC Race",       new Date(1724579700 * SECS),  30 * MINS],
+	["F1 Race",        new Date(1724590800 * SECS), 180 * MINS]
+];
