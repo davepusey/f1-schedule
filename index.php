@@ -6,7 +6,7 @@
 </head>
 <body>
 <div id="outerContainer">You need to enable JavaScript to use this page.</div>
-<script src="data.js"></script>
+<script src="data.js.php"></script>
 <script src="main.js"></script>
 <script>
 function RedrawPage()
