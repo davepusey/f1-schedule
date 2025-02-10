@@ -13,11 +13,20 @@ const DAYS = 24 * HOURS;
 var seasonYear = 2025;
 
 var roundNum = 0;
-var roundName = "Season Launch Event";
-var roundFlag = "https://upload.wikimedia.org/wikipedia/commons/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg";
+var roundName = "Bahrain Test";
+var roundFlag = "https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Bahrain.svg";
 
 var sessionsData = [
 
-    // 2025-02-18 TUE
-    ["F1 75 LIVE",      new Date(1739908800 * SECS), 120 * MINS]
+    // 2025-02-26 WED
+    ["Day 1 AM",        new Date(1740553200 * SECS), 240 * MINS],
+    ["Day 1 PM",        new Date(1740571200 * SECS), 300 * MINS],
+
+    // 2025-02-27 THU
+    ["Day 2 AM",        new Date(1740639600 * SECS), 240 * MINS],
+    ["Day 2 PM",        new Date(1740657600 * SECS), 240 * MINS],
+
+    // 2025-02-28 FRI
+    ["Day 3 AM",        new Date(1740726000 * SECS), 240 * MINS],
+    ["Day 3 PM",        new Date(1740744000 * SECS), 240 * MINS]
 ];
