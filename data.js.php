@@ -12,28 +12,25 @@ const DAYS = 24 * HOURS;
 
 var seasonYear = 2025;
 
-var roundNum = 5;
-var roundName = "Saudi Arabian Grand Prix";
-var roundFlag = "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg";
+var roundNum = 6;
+var roundName = "Miami Grand Prix";
+var roundFlag = "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg";
 
 var sessionsData = [
 
-    // 2025-04-18 FRI
-    ["F2 Practice",     new Date(1744969500 * SECS),  45 * MINS],
-    ["F1A Practice",    new Date(1744974300 * SECS),  40 * MINS],
-    ["F1 Practice 1",   new Date(1744983000 * SECS),  60 * MINS],
-    ["F2 Qualifying",   new Date(1744988400 * SECS),  30 * MINS],
-    ["F1 Practice 2",   new Date(1744995600 * SECS),  60 * MINS],
-    ["F1A Qualifying",  new Date(1745001000 * SECS),  30 * MINS],
+    // 2025-05-02 FRI
+    ["F1A Practice 1",  new Date(1746194700 * SECS),  40 * MINS],
+    ["F1 Practice 1",   new Date(1746203400 * SECS),  60 * MINS],
+    ["F1A Practice 2",  new Date(1746213600 * SECS),  40 * MINS],
+    ["F1 Sprint Qual",  new Date(1746217800 * SECS),  60 * MINS],
 
-    // 2025-04-19 SAT
-    ["F1A Race 1",      new Date(1745065200 * SECS),  30 * MINS],
-    ["F1 Practice 3",   new Date(1745069400 * SECS),  60 * MINS],
-    ["F2 Race 1",       new Date(1745075700 * SECS),  45 * MINS],
-    ["F1 Qualifying",   new Date(1745082000 * SECS),  60 * MINS],
+    // 2025-05-03 SAT
+    ["F1A Qualifying",  new Date(1746282300 * SECS),  30 * MINS],
+    ["F1 Sprint",       new Date(1746288000 * SECS),  90 * MINS],
+    ["F1A Race 1",      new Date(1746298500 * SECS),  30 * MINS],
+    ["F1 Qualifying",   new Date(1746302400 * SECS),  60 * MINS],
 
-    // 2025-04-20 SUN
-    ["F1A Race 2",      new Date(1745150700 * SECS),  30 * MINS],
-    ["F2 Race 2",       new Date(1745155500 * SECS),  60 * MINS],
-    ["F1 Race",         new Date(1745168400 * SECS), 180 * MINS]
+    // 2025-05-04 SUN
+    ["F1A Race 2",      new Date(1746378300 * SECS),  30 * MINS],
+    ["F1 Race",         new Date(1746388800 * SECS), 180 * MINS]
 ];
