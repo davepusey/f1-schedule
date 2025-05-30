@@ -12,35 +12,31 @@ const DAYS = 24 * HOURS;
 
 var seasonYear = 2025;
 
-var roundNum = 8;
-var roundName = "Monaco Grand Prix";
-var roundFlag = "https://upload.wikimedia.org/wikipedia/commons/e/ea/Flag_of_Monaco.svg";
+var roundNum = 9;
+var roundName = "Spanish Grand Prix";
+var roundFlag = "https://upload.wikimedia.org/wikipedia/commons/8/89/Bandera_de_España.svg";
 
 var sessionsData = [
 
-    // 2025-05-22 THU
-    ["F3 Practice",     new Date(1747912200 * SECS),  45 * MINS],
-    ["F2 Practice",     new Date(1747918800 * SECS),  45 * MINS],
-    ["PSC Practice",    new Date(1747924200 * SECS),  45 * MINS],
+    // 2025-05-30 FRI
+    ["F3 Practice",     new Date(1748591700 * SECS),  45 * MINS],
+    ["F2 Practice",     new Date(1748595900 * SECS),  45 * MINS],
+    ["F1 Practice 1",   new Date(1748604600 * SECS),  60 * MINS],
+    ["F3 Qualifying",   new Date(1748610000 * SECS),  30 * MINS],
+    ["F2 Qualifying",   new Date(1748613300 * SECS),  30 * MINS],
+    ["F1 Practice 2",   new Date(1748617200 * SECS),  60 * MINS],
+    ["PSC Practice",    new Date(1748622600 * SECS),  45 * MINS],
 
-    // 2025-05-23 FRI
-    ["F3 Qualifying A", new Date(1747991100 * SECS),  16 * MINS],
-    ["F3 Qualifying B", new Date(1747992540 * SECS),  16 * MINS],
-    ["F1 Practice 1",   new Date(1747999800 * SECS),  60 * MINS],
-    ["F2 Qualifying A", new Date(1748005800 * SECS),  16 * MINS],
-    ["F2 Qualifying B", new Date(1748007240 * SECS),  16 * MINS],
-    ["F1 Practice 2",   new Date(1748012400 * SECS),  60 * MINS],
-    ["PSC Qual",        new Date(1748018700 * SECS),  30 * MINS],
+    // 2025-05-31 SAT
+    ["F3 Race 1",       new Date(1748678700 * SECS),  40 * MINS],
+    ["PSC Qual",        new Date(1748683200 * SECS),  30 * MINS],
+    ["F1 Practice 3",   new Date(1748687400 * SECS),  60 * MINS],
+    ["F2 Race 1",       new Date(1748693700 * SECS),  45 * MINS],
+    ["F1 Qualifying",   new Date(1748700000 * SECS),  60 * MINS],
 
-    // 2025-05-24 SAT
-    ["F3 Race 1",       new Date(1748076300 * SECS),  40 * MINS],
-    ["F1 Practice 3",   new Date(1748082600 * SECS),  60 * MINS],
-    ["F2 Race 1",       new Date(1748088900 * SECS),  45 * MINS],
-    ["F1 Qualifying",   new Date(1748095200 * SECS),  60 * MINS],
-
-    // 2025-05-25 SUN
-    ["F3 Race 2",       new Date(1748152800 * SECS),  45 * MINS],
-    ["F2 Race 2",       new Date(1748158800 * SECS),  60 * MINS],
-    ["PSC Race",        new Date(1748167200 * SECS),  30 * MINS],
-    ["F1 Race",         new Date(1748178000 * SECS), 180 * MINS]
+    // 2025-06-01 SUN
+    ["F3 Race 2",       new Date(1748759400 * SECS),  45 * MINS],
+    ["F2 Race 2",       new Date(1748764800 * SECS),  60 * MINS],
+    ["PSC Race",        new Date(1748771100 * SECS),  30 * MINS],
+    ["F1 Race",         new Date(1748782800 * SECS), 180 * MINS]
 ];
