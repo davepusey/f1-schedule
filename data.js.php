@@ -23,12 +23,14 @@ var sessionsData = [
     ["F1 Practice 1",   new Date(1753439400 * SECS),  60 * MINS],
     ["F3 Practice",     new Date(1753444800 * SECS),  45 * MINS],
     ["F2 Qualifying",   new Date(1753448400 * SECS),  30 * MINS],
+    ["F1 Sprint Qual",  new Date(1753453800 * SECS),  60 * MINS],
     ["PSC Practice",    new Date(1753459200 * SECS),  45 * MINS],
     ["F3 Qualifying",   new Date(1753463400 * SECS),  30 * MINS],
     
     // 2025-07-26 SAT
     ["F3 Race 1",       new Date(1753514100 * SECS),  40 * MINS],
     ["PSC Qual",        new Date(1753518300 * SECS),  30 * MINS],
+    ["F1 Sprint",       new Date(1753524000 * SECS),  90 * MINS],
     ["F2 Race 1",       new Date(1753530300 * SECS),  45 * MINS],
     ["F1 Qualifying",   new Date(1753538400 * SECS),  60 * MINS],
 
