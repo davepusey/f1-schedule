@@ -12,31 +12,31 @@ const DAYS = 24 * HOURS;
 
 var seasonYear = 2025;
 
-var roundNum = 13;
-var roundName = "Belgian Grand Prix";
-var roundFlag = "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg";
+var roundNum = 14;
+var roundName = "Hungarian Grand Prix";
+var roundFlag = "https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_Hungary.svg";
 
 var sessionsData = [
 
-    // 2025-07-25 FRI
-    ["F2 Practice",     new Date(1753430700 * SECS),  45 * MINS],
-    ["F1 Practice 1",   new Date(1753439400 * SECS),  60 * MINS],
-    ["F3 Practice",     new Date(1753444800 * SECS),  45 * MINS],
-    ["F2 Qualifying",   new Date(1753448400 * SECS),  30 * MINS],
-    ["F1 Sprint Qual",  new Date(1753453800 * SECS),  60 * MINS],
-    ["PSC Practice",    new Date(1753459200 * SECS),  45 * MINS],
-    ["F3 Qualifying",   new Date(1753463400 * SECS),  30 * MINS],
-    
-    // 2025-07-26 SAT
-    ["F3 Race 1",       new Date(1753514100 * SECS),  40 * MINS],
-    ["PSC Qual",        new Date(1753518300 * SECS),  30 * MINS],
-    ["F1 Sprint",       new Date(1753524000 * SECS),  90 * MINS],
-    ["F2 Race 1",       new Date(1753530300 * SECS),  45 * MINS],
-    ["F1 Qualifying",   new Date(1753538400 * SECS),  60 * MINS],
+    // 2025-08-01 FRI
+    ["F3 Practice",     new Date(1754034900 * SECS),  45 * MINS],
+    ["F2 Practice",     new Date(1754039100 * SECS),  45 * MINS],
+    ["F1 Practice 1",   new Date(1754047800 * SECS),  60 * MINS],
+    ["F3 Qualifying",   new Date(1754053200 * SECS),  30 * MINS],
+    ["F2 Qualifying",   new Date(1754056500 * SECS),  30 * MINS],
+    ["F1 Practice 2",   new Date(1754060400 * SECS),  60 * MINS],
+    ["PSC Practice",    new Date(1754065500 * SECS),  45 * MINS],
 
-    // 2025-07-27 SUN
-    ["F3 Race 2",       new Date(1753597800 * SECS),  45 * MINS],
-    ["F2 Race 2",       new Date(1753603200 * SECS),  60 * MINS],
-    ["PSC Race",        new Date(1753609500 * SECS),  30 * MINS],
-    ["F1 Race",         new Date(1753621200 * SECS), 180 * MINS]
+    // 2025-08-02 SAT
+    ["F3 Race 1",       new Date(1754121900 * SECS),  40 * MINS],
+    ["PSC Qual",        new Date(1754126400 * SECS),  30 * MINS],
+    ["F1 Practice 3",   new Date(1754130600 * SECS),  60 * MINS],
+    ["F2 Race 1",       new Date(1754136900 * SECS),  45 * MINS],
+    ["F1 Qualifying",   new Date(1754143200 * SECS),  60 * MINS],
+
+    // 2025-08-03 SUN
+    ["F3 Race 2",       new Date(1754202600 * SECS),  45 * MINS],
+    ["F2 Race 2",       new Date(1754208000 * SECS),  60 * MINS],
+    ["PSC Race",        new Date(1754214300 * SECS),  30 * MINS],
+    ["F1 Race",         new Date(1754226000 * SECS), 180 * MINS]
 ];
