@@ -12,24 +12,20 @@ const DAYS = 24 * HOURS;
 
 var seasonYear = 2025;
 
-var roundNum = 18;
-var roundName = "Singapore Grand Prix";
-var roundFlag = "https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Singapore.svg";
+var roundNum = 19;
+var roundName = "United States Grand Prix";
+var roundFlag = "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg";
 
 var sessionsData = [
 
-    // 2025-10-03 FRI
-    ["F1A Practice",    new Date(1759475400 * SECS),  40 * MINS],
-    ["F1 Practice 1",   new Date(1759483800 * SECS),  60 * MINS],
-    ["F1A Qualifying",  new Date(1759489200 * SECS),  30 * MINS],
-    ["F1 Practice 2",   new Date(1759496400 * SECS),  60 * MINS],
+    // 2025-10-17 FRI
+    ["F1 Practice 1",   new Date(1760722200 * SECS),  60 * MINS],
+    ["F1 Sprint Qual",  new Date(1760736600 * SECS),  60 * MINS],
 
-    // 2025-10-04 SAT
-    ["F1A Race 1",      new Date(1759561200 * SECS),  30 * MINS],
-    ["F1 Practice 3",   new Date(1759570200 * SECS),  60 * MINS],
-    ["F1 Qualifying",   new Date(1759582800 * SECS),  60 * MINS],
+    // 2025-10-18 SAT
+    ["F1 Sprint",       new Date(1760806800 * SECS),  90 * MINS],
+    ["F1 Qualifying",   new Date(1760821200 * SECS),  60 * MINS],
 
-    // 2025-10-05 SUN
-    ["F1A Race 2",      new Date(1759649100 * SECS),  30 * MINS],
-    ["F1 Race",         new Date(1759665600 * SECS), 180 * MINS]
+    // 2025-10-19 SUN
+    ["F1 Race",         new Date(1760900400 * SECS), 180 * MINS]
 ];
