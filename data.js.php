@@ -12,20 +12,20 @@ const DAYS = 24 * HOURS;
 
 var seasonYear = 2025;
 
-var roundNum = 19;
-var roundName = "United States Grand Prix";
-var roundFlag = "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg";
+var roundNum = 20;
+var roundName = "Mexican Grand Prix";
+var roundFlag = "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg";
 
 var sessionsData = [
 
-    // 2025-10-17 FRI
-    ["F1 Practice 1",   new Date(1760722200 * SECS),  60 * MINS],
-    ["F1 Sprint Qual",  new Date(1760736600 * SECS),  60 * MINS],
+    // 2025-10-24 FRI
+    ["F1 Practice 1",   new Date(1761330600 * SECS),  60 * MINS],
+    ["F1 Practice 2",   new Date(1761343200 * SECS),  60 * MINS],
 
-    // 2025-10-18 SAT
-    ["F1 Sprint",       new Date(1760806800 * SECS),  90 * MINS],
-    ["F1 Qualifying",   new Date(1760821200 * SECS),  60 * MINS],
+    // 2025-10-25 SAT
+    ["F1 Practice 3",   new Date(1761413400 * SECS),  60 * MINS],
+    ["F1 Qualifying",   new Date(1761426000 * SECS),  60 * MINS],
 
-    // 2025-10-19 SUN
-    ["F1 Race",         new Date(1760900400 * SECS), 180 * MINS]
+    // 2025-10-26 SUN
+    ["F1 Race",         new Date(1761508800 * SECS), 180 * MINS]
 ];
