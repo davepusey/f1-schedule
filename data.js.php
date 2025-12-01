@@ -28,6 +28,7 @@ var sessionsData = [
     ["F1 Practice 3",   new Date(1765017000 * SECS),  60 * MINS],
     ["F2 Race 1",       new Date(1765023300 * SECS),  45 * MINS],
     ["F1 Qualifying",   new Date(1765029600 * SECS),  60 * MINS],
+    ["FE Sao Paulo",    new Date(1765040700 * SECS),  45 * MINS],
 
     // 2025-12-07 SUN
     ["F2 Race 2",       new Date(1765098900 * SECS),  60 * MINS],
