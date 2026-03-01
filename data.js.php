@@ -12,59 +12,34 @@ const DAYS = 24 * HOURS;
 
 var seasonYear = 2026;
 
-var roundNum = 0;
-var roundName = "Pre-Season Testing";
-var roundFlag = "https://upload.wikimedia.org/wikipedia/commons/0/0d/F1_%28registered_trademark%29.svg";
+var roundNum = 1;
+var roundName = "Australian Grand Prix";
+var roundFlag = "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg";
 
 var sessionsData = [
 
-    // TEST 1
+    // 2026-03-05 THU
+    ["SC Race 1",       new Date(1772690100 * SECS),  40 * MINS],
+    ["F3 Practice",     new Date(1772747400 * SECS),  45 * MINS],
+    ["F2 Practice",     new Date(1772751600 * SECS),  45 * MINS],
 
-    // 2025-01-26 MON
-    ["T1 Day 1 AM",        new Date(Date.UTC(2026, 0, 26, 7, 0, 0)), 240 * MINS],
-    ["T1 Day 1 PM",        new Date(Date.UTC(2026, 0, 26, 12, 0, 0)), 240 * MINS],
+    // 2026-03-06 FRI
+    ["F1 Practice 1",   new Date(1772760600 * SECS),  60 * MINS],
+    ["F3 Qualifying",   new Date(1772766000 * SECS),  30 * MINS],
+    ["F2 Qualifying",   new Date(1772769300 * SECS),  30 * MINS],
+    ["F1 Practice 2",   new Date(1772773200 * SECS),  60 * MINS],
+    ["SC Race 2",       new Date(1772778300 * SECS),  40 * MINS],
 
-    // 2025-01-27 TUE
-    ["T1 Day 2 AM",        new Date(Date.UTC(2026, 0, 27, 7, 0, 0)), 240 * MINS],
-    ["T1 Day 2 PM",        new Date(Date.UTC(2026, 0, 27, 12, 0, 0)), 240 * MINS],
+    // 2026-03-07 SAT
+    ["F3 Race 1",       new Date(1772842500 * SECS),  40 * MINS],
+    ["F1 Practice 3",   new Date(1772847000 * SECS),  60 * MINS],
+    ["F2 Race 1",       new Date(1772853000 * SECS),  45 * MINS],
+    ["F1 Qualifying",   new Date(1772859600 * SECS),  60 * MINS],
+    ["SC Race 3",       new Date(1772865300 * SECS),  40 * MINS],
+    ["F3 Race 2",       new Date(1772920200 * SECS),  45 * MINS],
+    ["SC Race 4",       new Date(1772925000 * SECS),  35 * MINS],
 
-    // 2025-01-28 WED
-    ["T1 Day 3 AM",        new Date(Date.UTC(2026, 0, 28, 7, 0, 0)), 240 * MINS],
-    ["T1 Day 3 PM",        new Date(Date.UTC(2026, 0, 28, 12, 0, 0)), 240 * MINS],
-
-    // 2025-01-29 THU
-    ["T1 Day 4 AM",        new Date(Date.UTC(2026, 0, 29, 7, 0, 0)), 240 * MINS],
-    ["T1 Day 4 PM",        new Date(Date.UTC(2026, 0, 29, 12, 0, 0)), 240 * MINS],
-
-    // 2025-01-30 FRI
-    ["T1 Day 5 AM",        new Date(Date.UTC(2026, 0, 30, 7, 0, 0)), 240 * MINS],
-    ["T1 Day 5 PM",        new Date(Date.UTC(2026, 0, 30, 12, 0, 0)), 240 * MINS],
-
-    // TEST 2
-
-    // 2025-02-11 WED
-    ["T2 Day 1 AM",        new Date(Date.UTC(2026, 1, 11, 7, 0, 0)), 240 * MINS],
-    ["T2 Day 1 PM",        new Date(Date.UTC(2026, 1, 11, 12, 0, 0)), 240 * MINS],
-
-    // 2025-02-12 THU
-    ["T2 Day 2 AM",        new Date(Date.UTC(2026, 1, 12, 7, 0, 0)), 240 * MINS],
-    ["T2 Day 2 PM",        new Date(Date.UTC(2026, 1, 12, 12, 0, 0)), 240 * MINS],
-
-    // 2025-02-13 FRI
-    ["T2 Day 3 AM",        new Date(Date.UTC(2026, 1, 13, 7, 0, 0)), 240 * MINS],
-    ["T2 Day 3 PM",        new Date(Date.UTC(2026, 1, 13, 12, 0, 0)), 240 * MINS],
-
-    // TEST 3
-
-    // 2025-02-18 WED
-    ["T3 Day 1 AM",        new Date(Date.UTC(2026, 1, 18, 7, 0, 0)), 240 * MINS],
-    ["T3 Day 1 PM",        new Date(Date.UTC(2026, 1, 18, 12, 0, 0)), 240 * MINS],
-
-    // 2025-02-19 THU
-    ["T3 Day 2 AM",        new Date(Date.UTC(2026, 1, 19, 7, 0, 0)), 240 * MINS],
-    ["T3 Day 2 PM",        new Date(Date.UTC(2026, 1, 19, 12, 0, 0)), 240 * MINS],
-
-    // 2025-02-20 FRI
-    ["T3 Day 3 AM",        new Date(Date.UTC(2026, 1, 20, 7, 0, 0)), 240 * MINS],
-    ["T3 Day 3 PM",        new Date(Date.UTC(2026, 1, 20, 12, 0, 0)), 240 * MINS]
+    // 2026-03-08 SUN
+    ["F2 Race 2",       new Date(1772929500 * SECS),  60 * MINS],
+    ["F1 Race",         new Date(1772942400 * SECS), 180 * MINS]
 ];
