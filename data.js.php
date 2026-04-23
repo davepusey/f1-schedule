@@ -20,7 +20,7 @@ var sessionsData = [
 
     // 2026-05-01 FRI
     ["F2 Practice 1",   new Date(1777644000 * SECS),  45 * MINS],
-    ["F1 Practice 1",   new Date(1777653000 * SECS),  60 * MINS],
+    ["F1 Practice 1",   new Date(1777651200 * SECS),  90 * MINS],
     ["F1 Sprint Qual",  new Date(1777667400 * SECS),  60 * MINS],
 
     // 2026-05-02 SAT
